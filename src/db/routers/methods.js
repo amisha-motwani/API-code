@@ -70,4 +70,4 @@ router.delete("/man/:id", async (req, res) => {   //async because it returns a p
         res.status(500).send(e); //update karte wqt 500 error k liye likhate hai because server ka error 500 se start hota hai
     }
 });
-module.exports = router;  //router ko export kara hai
+module.exports = router;  //router ko export kara haigit commit -m "first commit"
